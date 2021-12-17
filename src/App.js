@@ -1,10 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Footer from "./Components/Footer";
 
 function App() {
-  return (
-
-  );
+  return <Footer />;
 }
 
 export default App;
