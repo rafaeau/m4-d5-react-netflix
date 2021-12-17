@@ -2,7 +2,7 @@
 import {Component} from 'react'
 import SingleMovie from './SingleMovie'
 import Alert from 'react-bootstrap/Alert'
-import { Col, Container, Form, Row, Spinner } from "react-bootstrap";
+import { Spinner } from "react-bootstrap";
 class MoviesRow extends Component{
     
     state= {
