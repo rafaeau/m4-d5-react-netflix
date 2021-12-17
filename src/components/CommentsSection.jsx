@@ -9,7 +9,7 @@ class CommentsSection extends Component {
 
     componentDidMount = async () => {
         try {
-            let response = await fetch("https://striveschool-api.herokuapp.com/api/comments/" + this.props.asin, {
+            let response = await fetch("https://striveschool-api.herokuapp.com/api/comments/" + this.props.elementId, {
                 headers: {
                     "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTRiMjFmMTRiYjUzZDAwMTViMTllZDciLCJpYXQiOjE2Mzk3NDk4NzMsImV4cCI6MTY0MDk1OTQ3M30.9HxkVc1F8bw315NS43bmQ-Dz29tRsKzF7c2XS2WjYS8"
                 }

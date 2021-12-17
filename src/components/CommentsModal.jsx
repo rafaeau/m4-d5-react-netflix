@@ -14,7 +14,7 @@ class CommentsModal extends Component {
         return (
             <>
                 <div>
-                    <h5><Badge bg="info" className="text-white" onClick={this.openModal}>Comments section</Badge></h5>
+                    <h5><Badge bg="info" className="text-white" onClick={this.openModal}>Comments</Badge></h5>
                 </div>
                 <Modal show={this.state.isOpen} onHide={this.closeModal}>
                     <Modal.Header>
@@ -23,7 +23,7 @@ class CommentsModal extends Component {
                         X
                         </Button>
                     </Modal.Header>
-                    <Modal.Body><CommentsSection/></Modal.Body>
+                    <Modal.Body><CommentsSection id={this.props.elementId}/></Modal.Body>
                     <Modal.Footer></Modal.Footer>
                 </Modal>
             </>

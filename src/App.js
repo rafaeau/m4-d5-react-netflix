@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import MyNavbar from './components/MyNavbar';
 import TvShows from './components/TvShows';
-import SingleMovie from './components/SingleMovie';
 import MoviesRow from './components/MoviesRow';
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
     <>
       <MyNavbar />
       <TvShows />
-      <SingleMovie movie={'harry-potter'}/>
       <MoviesRow />
     </>
   );
