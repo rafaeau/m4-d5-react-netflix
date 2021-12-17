@@ -1,8 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import './App.css';
-import MyNavbar from './components/MyNavbar';
-import TvShows from './components/TvShows';
-import MoviesRow from './components/MoviesRow';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import MyNavbar from "./components/MyNavbar";
+import TvShows from "./components/TvShows";
+import MoviesRow from "./components/MoviesRow";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <MyNavbar />
       <TvShows />
       <MoviesRow />
+      <Footer />
     </>
   );
 }
