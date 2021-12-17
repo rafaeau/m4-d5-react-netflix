@@ -11,7 +11,7 @@ class CommentsSection extends Component {
         try {
             let response = await fetch("https://striveschool-api.herokuapp.com/api/comments/" + this.props.asin, {
                 headers: {
-                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTRiMjFmMTRiYjUzZDAwMTViMTllZDciLCJpYXQiOjE2Mzk2NjAyMjQsImV4cCI6MTY0MDg2OTgyNH0.kMQv1FRu_3dz4nGd6Svq-5gtmJxijc2IHVwiWb6Ldqk"
+                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTRiMjFmMTRiYjUzZDAwMTViMTllZDciLCJpYXQiOjE2Mzk3NDk4NzMsImV4cCI6MTY0MDk1OTQ3M30.9HxkVc1F8bw315NS43bmQ-Dz29tRsKzF7c2XS2WjYS8"
                 }
             })
             console.log(response)
